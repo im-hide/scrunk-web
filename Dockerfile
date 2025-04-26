@@ -7,4 +7,4 @@ COPY . .
 RUN npm run build
 FROM nginx:stable
 COPY --from=build /app/dist/scrunk/browser/ /usr/share/nginx/html
-EXPOSE 40080
+EXPOSE 8080
