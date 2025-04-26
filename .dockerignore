@@ -1,0 +1,12 @@
+**/node_modules/
+**/dist/
+**/build/
+**/README.md
+**/LICENSE
+**/.env
+**/.git
+**/.gitignore
+**/.vscode
+**/.editorconfig
+**/LICENSE
+**/npm-debug.log
