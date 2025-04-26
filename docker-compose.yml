@@ -4,9 +4,9 @@ services:
     build: .
     image: scrunk:latest
     ports:
-      - "9696:8080"
+      - "80:80"
     expose:
-      - 8080
+      - 80
     networks:
       - internalnet
 
