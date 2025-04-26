@@ -1,1 +1,7 @@
-<button class="btn">fuck</button>
+<div class="justify-center w-full h-full flex flex-col items-center">
+    <button class="btn" (click)="showVideo()">Show Video</button>
+    <video hidden id="catvideo" >
+        <source src="assets/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>

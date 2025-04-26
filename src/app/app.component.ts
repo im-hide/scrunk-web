@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'scrunk';
+
+  showVideo(): void {
+    document.getElementById('catvideo')?.removeAttribute('hidden');
+    document.getElementById('catvideo')?.setAttribute('autoplay', 'true');
+  }
 }
